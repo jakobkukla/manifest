@@ -1118,4 +1118,7 @@
   <include name="snippets/pixel-extras.xml" />
   <include name="snippets/pixel-caf.xml" />
 
+  <!-- Add my Oneplus 7 Pro repos -->
+  <include name="snippets/jakobkukla.xml" />
+
 </manifest>
