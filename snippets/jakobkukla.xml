@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="jakobkukla-twelve" fetch="https://github.com" revision="twelve" />
-  <remote name="jakobkukla-arrow-12.0" fetch="https://github.com" revision="arrow-12.0" />
+	<remote name="jakobkukla-twelve" fetch="https://github.com/jakobkukla" revision="twelve" />
+  <remote name="jakobkukla-arrow-12.0" fetch="https://github.com/jakobkukla" revision="arrow-12.0" />
+  <remote name="kosp" fetch="https://github.com/AOSP-Krypton" revision="A12" />
 
-  <project path="device/oneplus/sm8150-common" name="jakobkukla/android_device_oneplus_sm8150-common" remote="jakobkukla-twelve" />
-  <project path="device/oneplus/guacamole" name="jakobkukla/android_device_oneplus_guacamole" remote="jakobkukla-twelve" />
-  <project path="device/oneplus/extras" name="jakobkukla/android_device_oneplus_extras" remote="jakobkukla-arrow-12.0" />
-  <project path="kernel/oneplus/sm8150" name="jakobkukla/android_kernel_oneplus_sm8150" remote="jakobkukla-arrow-12.0" />
-  <project path="vendor/oneplus/sm8150-common" name="jakobkukla/vendor_oneplus_sm8150-common" remote="jakobkukla-twelve" />
-  <project path="vendor/oneplus/guacamole" name="jakobkukla/vendor_oneplus_guacamole" remote="jakobkukla-twelve" />
-  <project path="hardware/oneplus" name="jakobkukla/hardware_oneplus" remote="jakobkukla-twelve" />
+  <project path="device/oneplus/sm8150-common" name="android_device_oneplus_sm8150-common" remote="kosp" />
+  <project path="device/oneplus/guacamole" name="android_device_oneplus_guacamole" remote="kosp" />
+  <project path="device/oneplus/extras" name="android_device_oneplus_extras" remote="jakobkukla-arrow-12.0" />
+  <project path="kernel/oneplus/sm8150" name="android_kernel_oneplus_sm8150" remote="jakobkukla-arrow-12.0" />
+  <project path="vendor/oneplus/sm8150-common" name="vendor_oneplus_sm8150-common" remote="jakobkukla-twelve" />
+  <project path="vendor/oneplus/guacamole" name="vendor_oneplus_guacamole" remote="jakobkukla-twelve" />
+  <project path="hardware/oneplus" name="hardware_oneplus" remote="jakobkukla-twelve" />
 </manifest>
